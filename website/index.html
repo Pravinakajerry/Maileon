@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="Maileon - Receive static forms submission on email without server">
+        <meta name="description" content="Receive form submissions directly in your email inbox without any server or back-end code.">
+        <meta property="og:description" content="Receive form submissions directly in your email inbox without any server or back-end code.">
+        <link rel="icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script defer src="./js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>Maileon - Receive static forms submission on email without server</title>
+    </head>
+    <body>
+        <div id="header" class="header">
+            <a>
+                <img src="./images/logo.svg" width="60px" />
+            </a>
+            <div class="menu-wp is-header" id="menu-wp">
+                <a>
+                    <span class="menu-link">Install</span>
+                </a>
+                <a>
+                    <span class="menu-link">FAQ</span>
+                </a>
+                <a>
+                    <span class="menu-link">Templates</span>
+                </a>
+                <a>
+                    <span class="menu-link">Open Source</span>
+                </a>
+            </div>
+            <div class="m-show" id="menu">
+                <img src="./images/menu.svg" width="24px" />
+            </div>
+        </div>
+        <div class="popup-wp" id="popup">
+            <div class="popup">
+                <div class="icn-wp">
+                    <img src="./images/compose.svg" />
+                    <img src="./images/arrow-right.svg" width="20px" />
+                    <img src="./images/inbox-newsletter.svg" />
+                </div>
+                <a class="close-popup">
+                    <img src="./images/close-icn.svg" width="48px" />
+                </a>
+                <p>
+                    Get Started - Create your connection key to
+                    <br />connect form with mail
+                </p>
+                <form id="generate-code">
+                    <input class="input" name="email" placeholder="Email address" type="email" />
+                    <button class="button is--secondary">Create Access Key</button>
+                </form>
+                <p class="opacity-50 text-14">
+                    We never spam
+                    <br />You can unsubscribe or delete account
+                    <br />anytime you want
+                </p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="col">
+                <h1>
+                    Simple HTML Plug & Play
+                    <br />Forms System
+                </h1>
+                <p>
+                    <b>Recei</b>ve <b>for</b>m <b>submissio</b>ns
+                    <b>direct</b>ly <b>i</b>n <b>you</b>r <b>emai</b>l <b>inb</b>ox
+                    <br>
+                        <b>witho</b>ut <b>an</b>y <b>serv</b>er
+                    <b>o</b>r <b>bac</b>k-<b>en</b>d <b>cod</b>e, <b>Fre</b>e <b>forev</b>er
+                </p>
+            </div>
+            <div class="row">
+                <a id="get-started">
+                    <button class="button">Get Started</button>
+                </a>
+                <a href="https://pravinakajerry.notion.site/Maileon-Documentation-bcfa8b34b419472a8ea8cdbd87fea2d1" target="_blank">
+                    <button class="button is--secondary">Customization & Docs</button>
+                </a>
+            </div>
+            <div class="col opacity-50">
+                <p>Supports most servers and stacks</p>
+                <div class="row">
+                    <img src="./images/logos.svg" />
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row is-end-to-end">
+                <div class="col">
+                    <p class="opacity-50 highlight">Features</p>
+                    <div class="list-gap">
+                        <p>01 - Unlimited form submissions</p>
+                        <p>06 - No login needed</p>
+                        <p>02 - Works anywhere</p>
+                        <p>07 - No Server or Setup needed</p>
+                        <p>03 - Always free and open source</p>
+                        <p>04 - Whitelabel</p>
+                        <p>05 - Free templates</p>
+                        <p>08 - Full design control</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="opacity-50 highlight">Coming Soon</p>
+                    <div class="list-gap">
+                        <p>01 - Whatsapp Forwarding</p>
+                        <p>02 - Spam protection</p>
+                        <p>03 - Email forwarding</p>
+                        <p>04 - File Upload Support</p>
+                        <p>05 - Database view and data export</p>
+                        <p>06 - More customizable templates</p>
+                        <p>07 - JS Plugin</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="opacity-50 highlight">Supported Stack</p>
+                    <div class="list-gap">
+                        <p>01 - HTML</p>
+                        <p>02 - React</p>
+                        <p>03 - PHP</p>
+                        <p>04 - NextJS</p>
+                        <p>05 - WordPress </p>
+                        <p>05 - Webflow</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="opacity-50 highlight">Supported Server's</p>
+                    <div class="list-gap">
+                        <p>01 - AWS</p>
+                        <p>02 - Vercel</p>
+                        <p>03 - Netlify</p>
+                        <p>04 - Wordpress forms</p>
+                        <p>more...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="header">
+                <div class="col">
+                    <a>
+                        <img width="48px" src="./images/logo.svg" />
+                    </a>
+                    <p class="font-size-large">
+                        Maileon handles form submissions without any server or configuration - Just plug and play
+                        <br>
+                        <br>Free open source - with approach of simplicity
+                    </p>
+                    <a>
+                        <button class="button" id="get-started-1">Get Started</button>
+                    </a>
+                </div>
+                <div class="menu-wp is-footer">
+                    <div class="col">
+                        <span class="highlight">Pages</span>
+                        <a>
+                            <span class="menu-link">FAQ</span>
+                        </a>
+                        <a>
+                            <span class="menu-link">Pricing</span>
+                        </a>
+                        <a>
+                            <span class="menu-link">Demo </span>
+                        </a>
+                        <a>
+                            <span class="menu-link">Contact Us</span>
+                        </a>
+                    </div>
+                    <div></div>
+                    <div class="col">
+                        <span class="highlight">Other Links</span>
+                        <a>
+                            <span class="menu-link">About Us</span>
+                        </a>
+                        <a>
+                            <span class="menu-link">Feedback</span>
+                        </a>
+                        <a class="row">
+                            <p class="menu-link">Github</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Designed by <a href="https://www.instagram.com/pravinakajerry/" target="_blank" class="menu-link">Pravin Singh</a>
+                <br />Developed By Vivek Kumar
+                <br />Made possible <a href="https://www.instagram.com/sushantrai__/" target="_blank" class="menu-link">Sushant Rai</a>
+            </p>
+        </div>
+    </body>
+</html>
